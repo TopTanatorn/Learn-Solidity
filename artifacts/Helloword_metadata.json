@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "msgString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "HelloWord"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x7ccf2c270e5b4b47803cc4c38a45adbeaed308f25536ae0a3a17850675f2b0e7",
+			"license": "TopsTanatorn",
+			"urls": [
+				"bzz-raw://17149285ab5abfb68245d67aa5036debc798aaf5a3030b3edf7c2292d2d4981c",
+				"dweb:/ipfs/QmTrHjSzGYSmRiPaMZHM28ho7quWhC5qFpnSNvBVXSUGPT"
+			]
+		}
+	},
+	"version": 1
+}
