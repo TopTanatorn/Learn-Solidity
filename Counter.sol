@@ -3,13 +3,14 @@
 pragma solidity 0.8.7;
 
 contract Counter {
-    int256 public startNum;
+    int public startNum = 0;
 
-    function inc() external {
+    function inc() external view return(int){
         startNum += 1;
+        return startNum;
     }
-
-    function dec() external {
+    funtion dec() external view return(int){
         startNum -= 1;
+        return startNum;
     }
 }
